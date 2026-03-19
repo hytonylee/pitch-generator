@@ -1,4 +1,4 @@
-# Pitch Generator Skill
+# Pitch Generator (Claude skill)
 
 Generate concise, audience-targeted pitch drafts for products, projects, and ideas — with dedicated guidance for pre-seed fundraising.
 
