@@ -45,6 +45,10 @@ Use this skill when the user asks for a pitch for an idea, product, project, or 
 ## Output format
 Return 3 variants, each targeted to the audience and aligned to the workshop structure:
 
+0. **Patterns used (when a benchmark deck is available)**
+   - Briefly list 1-2 messaging patterns extracted from the local benchmark deck and how they are adapted for the user's context.
+   - Keep this to 1-3 lines total.
+
 1. **One-liner pitch**
    - Must answer the “three questions to answer cold” in plain language:
      - What do you do?
@@ -72,6 +76,21 @@ Return 3 variants, each targeted to the audience and aligned to the workshop str
 - Evidence hierarchy: if you don't have Tier 1, use Tier 2/3/4—don't omit proof entirely.
 - Timing thesis: include “why now” as a concrete shift, not generic optimism.
 - No hedging language: avoid “I think maybe,” “sort of,” “hopefully,” “maybe we could…”
+
+## Reference example (pitch deck benchmark)
+- Use the well-known 2009 Airbnb fundraising deck as a quality benchmark for structure and clarity.
+- First check local benchmark files in `skills/pitch-generator/benchmarks`.
+- If one or more local benchmark decks exist there, use them as the primary reference instead of web sources.
+- If needed, select the closest benchmark by audience/stage (for example: pre-seed investor deck vs enterprise sales deck).
+- Apply what makes it effective:
+  - concise problem framing
+  - clear solution and differentiation
+  - simple market and business model logic
+  - concrete traction/validation signals
+  - explicit, milestone-based ask
+- When a local benchmark deck is available, extract 1-2 concrete messaging patterns from it before drafting (for example: opener style, problem framing pattern, traction phrasing, or ask structure).
+- Use this as inspiration only; do not copy wording or claims. Adapt to the user's company, audience, stage, and available evidence.
+- Prefer local files over external URLs for security and reliability.
 
 ## Live vs emailed guidance
 - If the user requests a **live pitch**: keep drafts shorter, punchier, and optimized for delivery (fewer sentences; strong opening/closing; emphasis on one key metric).
