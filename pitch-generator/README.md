@@ -1,0 +1,78 @@
+# pitch-generator
+
+Generate concise, audience-targeted pitch drafts for products, projects, and ideas — with dedicated guidance for pre-seed fundraising.
+
+## Overview
+
+This is an agent skill (SKILL.md format, MCP-compatible) that provides [describe functionality].
+
+## Installation
+
+### Via Skillsmith
+
+```bash
+skillsmith install {{author}}/pitch-generator
+```
+
+### Manual Installation
+
+1. Clone or download this repository
+2. Copy to your skills directory:
+
+```bash
+cp -r pitch-generator ~/.claude/skills/
+```
+
+## Quick Start
+
+1. Install the skill
+2. Start your MCP-compatible agent (Claude Code, Cursor, Copilot, Codex, Windsurf, etc.)
+3. Use the skill by [describe how to trigger]
+
+## Documentation
+
+See [SKILL.md](./SKILL.md) for detailed documentation.
+
+## Development
+
+### Prerequisites
+
+- Node.js 18+
+- npm or pnpm
+
+### Setup
+
+```bash
+# Install dependencies (if any)
+npm install
+
+# Run tests
+npm test
+```
+
+### Project Structure
+
+```
+pitch-generator/
+├── SKILL.md          # Skill definition and documentation
+├── README.md         # This file
+├── scripts/          # Automation scripts
+│   └── example.js    # Example script
+├── resources/        # Static resources
+└── .gitignore        # Git ignore rules
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+MIT License
+
+## Author
+
+Created with [Skillsmith](https://github.com/skillsmith/skillsmith)
