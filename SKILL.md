@@ -1,6 +1,6 @@
 ---
 name: pitch-generator
-author: tonylee
+author: hytonylee
 version: 0.1.0
 tags: ['claude-skill', 'skillsmith', 'pitch writing', 'investor deck', 'elevator pitch']
 description: 'Generate concise, targeted pitch drafts for products, projects, or ideas tailored to a target audience. Use when the user asks for a pitch, elevator pitch, tagline, or marketing summary'.
